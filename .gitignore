@@ -1,0 +1,7 @@
+
+*.nsp
+*.nss
+/hacbrewpack_backup
+/Library
+/SwitchIL2CPPCache
+/SwitchIL2CPPStats

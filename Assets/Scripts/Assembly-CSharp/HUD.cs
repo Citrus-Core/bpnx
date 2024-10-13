@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class HUD : WPFMonoBehaviour
 {
@@ -11,7 +12,7 @@ public class HUD : WPFMonoBehaviour
 			transform.parent = WPFMonoBehaviour.levelManager.transform;
 			if (WPFMonoBehaviour.levelManager.m_blueprintTexture)
 			{
-				transform.GetComponent<GUITexture>().texture = WPFMonoBehaviour.levelManager.m_blueprintTexture;
+				transform.GetComponent<RawImage>().texture = WPFMonoBehaviour.levelManager.m_blueprintTexture;
 			}
 		}
 	}

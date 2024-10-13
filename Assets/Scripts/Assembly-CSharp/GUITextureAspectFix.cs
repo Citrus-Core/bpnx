@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.UI;
 public class GUITextureAspectFix : MonoBehaviour
 {
 	public void Awake()
@@ -15,7 +15,7 @@ public class GUITextureAspectFix : MonoBehaviour
 
 	private void FixAspect()
 	{
-		GUITexture component = base.GetComponent<GUITexture>();
+		RawImage component = base.GetComponent<RawImage>();
 		Vector3 origScale = this.m_origScale;
 		float num = (float)Screen.width / (float)Screen.height;
 		float num2 = (float)component.texture.width / (float)component.texture.height;
