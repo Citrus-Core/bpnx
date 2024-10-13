@@ -1,0 +1,9 @@
+hacbrewpack_backup/
+Library/
+Builds/
+Logs/
+SwitchIL2CPPCache/
+SwitchIL2CPPStats/
+*.nsp
+*.nss
+/Temp
